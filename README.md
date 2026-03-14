@@ -8,7 +8,7 @@
 - **Event:** Hackwise 2.0 — March 14, 2026
 
 ### Problem Found in Dataset
-- Dataset was heavily imbalanced: only 50 Chihuahua and 50 Muffin images
+- Dataset was heavily imbalanced: only 50 Chihuahua, 50 Muffin images and 3,579 Unlabelled Images
 - Several mislabeled images (Chihuahua labeled as Muffin and vice versa)
 - Some blurry, low-quality, and visually ambiguous images confused the model
 - Background bias: model was learning background context instead of the object
@@ -24,7 +24,7 @@
 | Stage | Accuracy |
 |-------|----------|
 | Baseline (original dataset) | 76.10% |
-| After label fixes + cleaning | ~85% |
+| After label fixes + cleaning | ~89% |
 | Final (best validation) | **91.50%** |
 
 ### Tools Used
